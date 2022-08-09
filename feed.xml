@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-08-09T17:42:42+09:00</updated>
+    <updated>2022-08-09T19:57:05+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -233,7 +233,7 @@
         <link href="https://n-hatada.github.io/chesta/japanese.html"/>
         <id>https://n-hatada.github.io/chesta/japanese.html</id>
 
-        <updated>2022-08-09T17:42:42+09:00</updated>
+        <updated>2022-08-09T19:57:05+09:00</updated>
             <summary>
                 <![CDATA[
                     化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.1.15.zip (2022年8月9日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta 2.22.zip (2008年6月15日作成、2010年6月21日公開) 中性化学種の化学ポテンシャルおよび温度を軸にとった化学ポテンシャル図です。（使用単位：bar, kJ, K） 水溶液に関する化学ポテンシャル図である、電位-pH図&hellip;
@@ -379,47 +379,47 @@
 <h3>Fe-O<sub><span class="auto-style1">2</span></sub>-Cl<sub><span class="auto-style1">2</span></sub>系化学ポテンシャル図</h3>
 <p>中性化学種の化学ポテンシャルおよび温度を軸にとった化学ポテンシャル図です。（使用単位：bar, kJ, K）</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2-Cl2_1000K.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2-Cl2_1000K-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2-Cl2_1000K.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2-Cl2_1000K-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>Fe-O2-Cl2 system (1000K)</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2_logpO2-T.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2_logpO2-T-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2_logpO2-T.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2_logpO2-T-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>log pO2 - T diagram</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2_RTlnpO2-T.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2_RTlnpO2-T-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2_RTlnpO2-T.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2_RTlnpO2-T-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>RTln pO2 - T diagram (Ellingham diagram)</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-Cl2_logpCl2-T.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-Cl2_logpCl2-T-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-Cl2_logpCl2-T.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-Cl2_logpCl2-T-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>log pCl2 - T diagram</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-Cl2_RTlnpCl2-T.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-Cl2_RTlnpCl2-T-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-Cl2_RTlnpCl2-T.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-Cl2_RTlnpCl2-T-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>RTln pCl2 - T diagram (Ellingham diagram)</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2-Cl2_WithTAxis.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2-Cl2_WithTAxis-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2-Cl2_WithTAxis.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2-Cl2_WithTAxis-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>log pO2 - log pCl2 - T diagram</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2-Cl2_WithTAxis_Framework.png" data-size="801x601"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Fe-O2-Cl2_WithTAxis_Framework-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2-Cl2_WithTAxis_Framework.png" data-size="801x601"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Fe-O2-Cl2_WithTAxis_Framework-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>log pO2 - log pCl2 - T diagram (Fe-Cl species are made transparent)</figcaption>
 </figure>
 </div></div>
 <h3>Ag-Cl-<span class="auto-style1">H<sub>2</sub>O</span>系電位-pH図 (プールベ図)</h3>
 <p>水溶液に関する化学ポテンシャル図である、電位-pH図 (プールベ図) です。錯体を含む電位-pH図を立体的に示しています。(<a href="https://www.aqua.mtl.kyoto-u.ac.jp/wordpress/chesta/examples/Ag%20-%20Cl%20-%20H2O%20System%20(298K).csv">データファイル</a>)</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-H2O_1E-5M.png" data-size="800x600"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-H2O_1E-5M-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-H2O_1E-5M.png" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-H2O_1E-5M-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>Potential-pH diagram of the Ag-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5. The electrochemical window of water is not considered.</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-H2O_1E-5M_2.png" data-size="800x600"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-H2O_1E-5M_2-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-H2O_1E-5M_2.png" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-H2O_1E-5M_2-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>Potential-pH diagram of the Ag-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5. Now the electrochemical window of water is considered.</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_1E-5M.png" data-size="800x600"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_1E-5M-thumbnail.png" alt="" width="720" height="540"></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_1E-5M.png" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_1E-5M-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>Potential-pH-(log aCl-) diagram of the Ag-Cl-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5.</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_1E-5M_Cut_GIF.gif" data-size="800x600"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_1E-5M_Cut_GIF.gif" alt=""></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_1E-5M_Cut_GIF.gif" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_1E-5M_Cut_GIF.gif" alt=""></a>
 <figcaption>Cutting the potential-pH-(log aCl-) diagram of the Ag-Cl-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5.</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_1E-5M_Rotation_GIF.gif" data-size="800x600"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_1E-5M_Rotation_GIF.gif" alt=""></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_1E-5M_Rotation_GIF.gif" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_1E-5M_Rotation_GIF.gif" alt=""></a>
 <figcaption>Rotating the potential-pH-(log aCl-) diagram of the Ag-Cl-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5.</figcaption>
 </figure>
-<figure class="gallery__item"><a href="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_activity_1E-10M_to_1M_GIF.gif" data-size="800x600"><img loading="lazy" src="file:///C:/Users/Naoyuki/ownCloud_eeebox/Publii/sites/chesta/input/media/posts/1/gallery/Ag-Cl-H2O_activity_1E-10M_to_1M_GIF.gif" alt=""></a>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_activity_1E-10M_to_1M_GIF.gif" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-Cl-H2O_activity_1E-10M_to_1M_GIF.gif" alt=""></a>
 <figcaption>Potential-pH-(log aCl-) diagram of the Ag-Cl-H2O system at 298K. The activities of the dissolved species containing silver are varied from 10^-10 to 1.</figcaption>
 </figure>
 </div></div>
