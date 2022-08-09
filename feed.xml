@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-08-09T19:57:05+09:00</updated>
+    <updated>2022-08-09T20:18:47+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://n-hatada.github.io/chesta/english.html"/>
         <id>https://n-hatada.github.io/chesta/english.html</id>
 
-        <updated>2022-08-09T17:39:36+09:00</updated>
+        <updated>2022-08-09T20:18:47+09:00</updated>
             <summary>
                 <![CDATA[
                     Features of Chesta Create chemical potential diagrams for multi-component systems 2D (with 2 axes) and 3D (with 3 axes) diagrams&hellip;
@@ -219,7 +219,7 @@
 <li>June 21, 2010: Chesta 2.22 released.</li>
 <li>April 7, 2014: Chesta 3.2.6.9 released.</li>
 <li>June 3, 2014: Examples updated.</li>
-<li>August 9, 2022: Website moved; Chesta 3.4.1.15 released.</li>
+<li>August 9, 2022: Website moved; Chesta 3.4.1.15 released. The activities of all chemical species at equilibrium points can now be displayed.</li>
 </ul>
 <p> </p>
             ]]>
@@ -233,7 +233,7 @@
         <link href="https://n-hatada.github.io/chesta/japanese.html"/>
         <id>https://n-hatada.github.io/chesta/japanese.html</id>
 
-        <updated>2022-08-09T19:57:05+09:00</updated>
+        <updated>2022-08-09T20:18:04+09:00</updated>
             <summary>
                 <![CDATA[
                     化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.1.15.zip (2022年8月9日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta 2.22.zip (2008年6月15日作成、2010年6月21日公開) 中性化学種の化学ポテンシャルおよび温度を軸にとった化学ポテンシャル図です。（使用単位：bar, kJ, K） 水溶液に関する化学ポテンシャル図である、電位-pH図&hellip;
@@ -444,7 +444,7 @@
 <li>2014年4月7日 Chesta 3.2.6.9を公開しました。</li>
 <li>2014年6月3日 作図例を更新しました。</li>
 <li>2017年4月10日 取り扱い説明を更新しました。</li>
-<li>2022年8月9日 ホームページを移転しました。Chesta 3.4.1.15を公開しました。</li>
+<li>2022年8月9日 ホームページを移転しました。Chesta 3.4.1.15を公開しました。平衡点における全化学種の活量が表示できるようになりました。</li>
 </ul>
             ]]>
         </content>
