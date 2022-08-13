@@ -1,0 +1,75 @@
+Time,2014/6/4 19:59,,,,,,,
+*******************************************************************,,,,,,,,
+*Add phase data at the bottom of this sheet.,,,,,,,,
+"*When you finish editing, save the sheet as a CSV file.",,,,,,,,
+*(Lines starting with an asterisk are regarded as comments.),,,,,,,,
+*******************************************************************,,,,,,,,
+,,,,,,,,
+*------------------------------------------------------,,,,,,,,
+*The data file format version and drawing conditions are written below.,,,,,,,,
+*You can also change these settings when you create diagrams with Chesta.,,,,,,,,
+*------------------------------------------------------,,,,,,,,
+,,,,,,,,
+*The data file format version is written here. You don't need to change it from '3'.,,,,,,,,
+Version,3,,,,,,,
+*Specify the dimension of this data file.,,,,,,,,
+Dimension,5,,,,,,,
+*Specify the diagram title.,,,,,,,,
+DiagramName,Ag - Cl - H2O System (298K),,,,,,,
+*Specify temperature at which thermodynamic data are given.,,,,,,,,
+T,298.15,,,,,,,
+*Specify axis labels in sequence.,,,,,,,,
+AxisLabel,log a(Ag[+]),pH,E,log a(H2O (l)),log a(Cl[-]),,,
+*Specify axis types in sequence. log activity -> 'loga'  -log activity -> 'pL'  Energy[kJ] -> 'kJ'  Energy[eV] -> 'eV'  Potential[V] -> 'E',,,,,,,,
+AxisType,loga,pL,E,loga,loga,,,
+*Specify phase names corresponding to each axis.,,,,,,,,
+CompositionLabel,Ag[+],H[+],e,H2O,Cl[-],,,
+*Specify lower limits of each axis in sequence.,,,,,,,,
+LowerLimit,-100,-1,-0.8,0,-10,,,
+*Specify upper limits of each axis in sequence.,,,,,,,,
+UpperLimit,0,15,1.8,0.01,0,,,
+*Specify whether the data file supports the temperature change feature or not.,,,,,,,,
+*'0' -> No   '1' -> Yes (Entropies are given.)   '2' -> Yes(Enthalpies are given.),,,,,,,,
+Tvariable,0,,,,,,,
+,,,,,,,,
+*------------------------------------------------------,,,,,,,,
+*Thermodynamic data of the phases in the system are written below.,,,,,,,,
+*------------------------------------------------------,,,,,,,,
+*Data of each phase are written in a line.,,,,,,,,
+*Think of the reaction formula for the formation of each phase (from the phases of the axes).,,,,,,,,
+*Example: 2 Ag[+] + 3 H[+] -> Phase X,,,,,,,,
+*Prepare standard Gibbs free energy change (kJ/mol) for the reaction.,,,,,,,,
+"*Then write the phase name, coefficients on the left-hand side of the reaction formula, standard Gibbs free energy change (kJ/mol), and log activity shift d(log a) (normally 0) in sequence.",,,,,,,,
+"*Example: Phase, Phase X, 2, 3, 0, 0, 0, -30, 0",,,,,,,,
+,,,,,,,,
+*,Phase name,Ag[+],H[+],e,H2O,Cl[-],dGf*,d(log a)
+Phase,Ag[+],1,0,0,0,0,0,0
+*Phase,H[+],0,1,0,0,0,0,0
+*Phase,e,0,0,1,0,0,0,0
+*Phase,H2O (l),0,0,0,1,0,0,0
+Phase,Cl[-],0,0,0,0,1,0,0
+*Add phases which belong to the system below.,,,,,,,,
+"*From ""The NBS tables of chemical thrmodynamic properties""",,,,,,,,
+Phase,Cl2 (g),0,0,-2,0,2,262.456,0
+Phase,Cl3[-],0,0,-2,0,3,273.284,0
+Phase,ClO[-],0,-2,-2,1,1,331.557,0
+Phase,ClO2 (aq),0,-4,-5,2,1,725.586,0
+Phase,ClO2[-],0,-4,-4,2,1,622.686,0
+Phase,ClO3[-],0,-6,-6,3,1,834.665,0
+Phase,ClO4[-],0,-8,-8,4,1,1071.224,0
+Phase,HCl (g),0,1,0,0,1,35.929,0
+Phase,HClO (aq),0,-1,-2,1,1,288.457,0
+Phase,HClO2 (aq),0,-3,-4,2,1,611.386,0
+Phase,H2 (g),0,2,2,0,0,0,0
+Phase,O2 (g),0,-4,-4,2,0,474.258,0
+Phase,Ag (cr),1,0,1,0,0,-77.107,0
+Phase,Ag2O (cr),2,-2,0,1,0,71.715,0
+Phase,Ag2O2 (cr),2,-4,-2,2,0,347.644,0
+Phase,Ag2O3 (cr),2,-6,-4,3,0,678.573,0
+Phase,AgOH (aq),1,-1,0,1,0,68.022,0
+Phase,Ag(OH)2[-],1,-2,0,2,0,136.951,0
+Phase,AgCl (cr),1,0,0,0,1,-55.668,0
+Phase,AgCl (aq),1,0,0,0,1,-18.679,0
+Phase,AgCl2[-],1,0,0,0,2,-30.051,0
+Phase,AgClO2 (cr),1,-4,-4,2,1,604.179,0
+Phase,AgClO3 (cr),1,-6,-6,3,1,830.008,0

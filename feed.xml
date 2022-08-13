@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-08-09T20:18:47+09:00</updated>
+    <updated>2022-08-13T16:06:26+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://n-hatada.github.io/chesta/english.html"/>
         <id>https://n-hatada.github.io/chesta/english.html</id>
 
-        <updated>2022-08-09T20:18:47+09:00</updated>
+        <updated>2022-08-13T16:06:26+09:00</updated>
             <summary>
                 <![CDATA[
                     Features of Chesta Create chemical potential diagrams for multi-component systems 2D (with 2 axes) and 3D (with 3 axes) diagrams&hellip;
@@ -183,7 +183,7 @@
 </figure>
 </div></div>
 <h3>Pourbaix (Potential-pH, E-pH) diagrams of the Ag-Cl-<span class="auto-style1">H<sub>2</sub>O system</span></h3>
-<p>Chemical potential diagrams for aqueous systems containing ionic species. (<a href="https://www.aqua.mtl.kyoto-u.ac.jp/wordpress/chesta/examples/Ag%20-%20Cl%20-%20H2O%20System%20(298K).csv">Data file</a>) </p>
+<p>Chemical potential diagrams for aqueous systems containing ionic species. (<a href="https://n-hatada.github.io/chesta/Ag - Cl - H2O System (298.15K).csv" download>Data file</a>) </p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
 <figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/1/gallery/Ag-H2O_1E-5M.png" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/1/gallery/Ag-H2O_1E-5M-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>Potential-pH diagram of the Ag-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5. The electrochemical window of water is not considered.</figcaption>
@@ -233,7 +233,7 @@
         <link href="https://n-hatada.github.io/chesta/japanese.html"/>
         <id>https://n-hatada.github.io/chesta/japanese.html</id>
 
-        <updated>2022-08-09T20:18:04+09:00</updated>
+        <updated>2022-08-13T16:06:09+09:00</updated>
             <summary>
                 <![CDATA[
                     化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.1.15.zip (2022年8月9日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta 2.22.zip (2008年6月15日作成、2010年6月21日公開) 中性化学種の化学ポテンシャルおよび温度を軸にとった化学ポテンシャル図です。（使用単位：bar, kJ, K） 水溶液に関する化学ポテンシャル図である、電位-pH図&hellip;
@@ -402,7 +402,7 @@
 </figure>
 </div></div>
 <h3>Ag-Cl-<span class="auto-style1">H<sub>2</sub>O</span>系電位-pH図 (プールベ図)</h3>
-<p>水溶液に関する化学ポテンシャル図である、電位-pH図 (プールベ図) です。錯体を含む電位-pH図を立体的に示しています。(<a href="https://www.aqua.mtl.kyoto-u.ac.jp/wordpress/chesta/examples/Ag%20-%20Cl%20-%20H2O%20System%20(298K).csv">データファイル</a>)</p>
+<p>水溶液に関する化学ポテンシャル図である、電位-pH図 (プールベ図) です。錯体を含む電位-pH図を立体的に示しています。(<a href="https://n-hatada.github.io/chesta/Ag - Cl - H2O System (298.15K).csv" download>データファイル</a>)</p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
 <figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-H2O_1E-5M.png" data-size="800x600"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/2/gallery/Ag-H2O_1E-5M-thumbnail.png" alt="" width="720" height="540"></a>
 <figcaption>Potential-pH diagram of the Ag-H2O system at 298K. The activities of the dissolved species containing silver are 10^-5. The electrochemical window of water is not considered.</figcaption>
