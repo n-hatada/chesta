@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-08-14T18:24:01+09:00</updated>
+    <updated>2022-08-16T21:51:36+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -17,10 +17,10 @@
         <link href="https://n-hatada.github.io/chesta/english.html"/>
         <id>https://n-hatada.github.io/chesta/english.html</id>
 
-        <updated>2022-08-14T18:21:46+09:00</updated>
+        <updated>2022-08-16T21:51:36+09:00</updated>
             <summary>
                 <![CDATA[
-                    Features of Chesta Create chemical potential diagrams for multi-component systems 2D (with 2 axes) and 3D (with 3 axes) diagrams&hellip;
+                    Features of Chesta What Chesta can do Create chemical potential diagrams for multi-component systems: 2D (with 2 axes) and 3D&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -31,10 +31,8 @@
 <ul>
 <li><a href="#mcetoc_1gadqh5o54t">Features of Chesta</a>
 <ul>
-<li><a href="#mcetoc_1gadqh5o54u">Create chemical potential diagrams for multi-component systems</a></li>
-<li><a href="#mcetoc_1gadqh5o54v">Customize diagrams</a></li>
-<li><a href="#mcetoc_1gadqh5o550">Output images (in BMP, JPG, and EMF formats)</a></li>
-<li><a href="#mcetoc_1gadqh5o551">Output coordinates of equilibrium points and activities of chemical species</a></li>
+<li><a href="#mcetoc_1gajbav55a2">What Chesta can do</a></li>
+<li><a href="#mcetoc_1gajbav55a3">Features not included</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1gadqh5o552">System requirements</a></li>
@@ -59,23 +57,17 @@
 </ul>
 </div>
 <h2 id="mcetoc_1gadqh5o54t">Features of Chesta</h2>
-<h3 id="mcetoc_1gadqh5o54u">Create chemical potential diagrams for multi-component systems</h3>
-<ul style="list-style-type: circle;">
-<li>2D (with 2 axes) and <strong>3D (with 3 axes) diagrams</strong> can be created.</li>
-<li>Chemical systems with more than 3 components can be handled. (Cutting and projection features are provided to reduce the dimension of the diagrams.)</li>
+<h3 id="mcetoc_1gajbav55a2">What Chesta can do</h3>
+<ul>
+<li><strong>Create chemical potential diagrams for multi-component systems</strong>: 2D (with 2 axes) and <strong>3D (with 3 axes) diagrams</strong> can be created. Chemical systems with more than 3 components can also be handled. (Cutting and projection features are provided to reduce the dimension of the diagrams.)</li>
+<li><strong>Customize diagrams</strong>: Several types of axes such as activity, energy, electrical potential, and temperature are available. This enables creation of <strong>Ellingham diagrams</strong> and <strong>Pourbaix (Potential-pH, E-pH) diagrams</strong>. Also, <strong>temperature and the activity of each phase can be changed</strong> and applied in the diagrams instantly.</li>
+<li><strong>Output images (in BMP, JPG, and EMF formats)</strong>: Vector images (EMF) can be edited in other softwares without degradation.</li>
+<li><strong>Output coordinates of equilibrium points and activities of chemical species</strong>: Chesta can be utilized as a tool for equilibrium calculations.</li>
 </ul>
-<h3 id="mcetoc_1gadqh5o54v"><span style="font-family: var(--editor-font-family); font-size: inherit;">Customize diagrams</span></h3>
-<ul style="list-style-type: circle;">
-<li>Several types of axes such as activity, energy, electrical potential, and temperature are available. This enables creation of <strong>Ellingham diagrams</strong> and <strong>Pourbaix (Potential-pH, E-pH) diagrams</strong>.</li>
-<li><strong>Temperature and the activity of each phase can be changed</strong> and applied in the diagrams instantly.</li>
-</ul>
-<h3 id="mcetoc_1gadqh5o550"><span style="font-family: var(--editor-font-family); font-size: inherit;">Output images (in BMP, JPG, and EMF formats)</span></h3>
-<ul style="list-style-type: circle;">
-<li>Vector images (EMF) can be edited in other softwares without degradation.</li>
-</ul>
-<h3 id="mcetoc_1gadqh5o551"><span style="font-family: var(--editor-font-family); font-size: inherit;">Output coordinates of equilibrium points and activities of chemical species</span></h3>
-<ul style="list-style-type: circle;">
-<li>Chesta can be utilized as a tool for equilibrium calculations.</li>
+<h3 id="mcetoc_1gajbav55a3">Features not included</h3>
+<ul>
+<li><strong>Thermodynamic database is not included</strong>: You have to collect data from the literature and input them to data files.</li>
+<li><strong>Compositional ranges of substances cannot be considered</strong>: All compounds are treated as line compounds. </li>
 </ul>
 <h2 id="mcetoc_1gadqh5o552">System requirements</h2>
 <p>Microsoft Windows 7 or later (64 bit)</p>
@@ -265,10 +257,10 @@
         <link href="https://n-hatada.github.io/chesta/japanese.html"/>
         <id>https://n-hatada.github.io/chesta/japanese.html</id>
 
-        <updated>2022-08-14T18:24:01+09:00</updated>
+        <updated>2022-08-16T19:49:17+09:00</updated>
             <summary>
                 <![CDATA[
-                    化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.1.15.zip (2022年8月9日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta 2.22.zip (2008年6月15日作成、2010年6月21日公開) 中性化学種の化学ポテンシャルおよび温度を軸にとった化学ポテンシャル図です。（使用単位：bar, kJ, K） 水溶液に関する化学ポテンシャル図である、電位-pH図&hellip;
+                    化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 多元系化学ポテンシャル図の作成 … 2次元図（表示する座標軸が2本）および3次元図（表示する座標軸が3本）が作成できます。4成分系以上でも、任意の座標軸に関して切断・投影することにより2、3次元表示を行うことができます。 種々の作図設定 … 活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、エリンガム図、電位-pH図が作成できます。また、各化学種の活量・温度などの値を変更し、即座に図に反映できます。 画像ファイルの出力（BMP、JPG、EMF形式） … ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.1.15.zip (2022年8月9日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -280,10 +272,8 @@
 <li><a href="#mcetoc_1gadqd9ul1b">化学ポテンシャル図とは</a></li>
 <li><a href="#mcetoc_1gadqd9ul1c">Chestaの機能の概要</a>
 <ul>
-<li><a href="#mcetoc_1gadqd9ul1d">多元系化学ポテンシャル図の作成</a></li>
-<li><a href="#mcetoc_1gadqd9ul1e">種々の作図設定</a></li>
-<li><a href="#mcetoc_1gadqd9ul1f">画像ファイルの出力（BMP、JPG、EMF形式）</a></li>
-<li><a href="#mcetoc_1gadqd9ul1g">平衡点座標・活量の出力</a></li>
+<li><a href="#mcetoc_1gaj2m06h63">Chestaでできること</a></li>
+<li><a href="#mcetoc_1gaj2m06h64">Chestaでできないこと</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1gadqd9ul1h">動作環境</a></li>
@@ -291,7 +281,7 @@
 <ul>
 <li><a href="#mcetoc_1gadqd9ul1j">Chesta 3.4.1 (最新バージョン)</a></li>
 <li><a href="#mcetoc_1gadqd9ul1k">Chesta 2.22 (旧バージョン)</a></li>
-<li><a href="#mcetoc_1gadqd9ul1l">機能比較</a></li>
+<li><a href="#mcetoc_1gadqd9ul1l">新旧バージョンの機能比較</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1gadqd9ul1m">スクリーンショット</a></li>
@@ -311,24 +301,23 @@
 <h2 id="mcetoc_1gadqd9ul1b">化学ポテンシャル図とは</h2>
 <p>化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。</p>
 <h2 id="mcetoc_1gadqd9ul1c">Chestaの機能の概要</h2>
-<h3 id="mcetoc_1gadqd9ul1d">多元系化学ポテンシャル図の作成</h3>
-<ul style="list-style-type: circle;">
-<li>2次元図（表示する座標軸が2本）および<strong>3次元図</strong>（表示する座標軸が3本）が作成できます。</li>
-<li>4成分系以上が扱えます。（任意の座標軸に関して切断・投影することにより2、3次元表示を行う。）</li>
+<h3 id="mcetoc_1gaj2m06h63">Chestaでできること</h3>
+<ul>
+<li>
+<p><strong>多元系化学ポテンシャル図の作成</strong> … <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">2次元図（表示する座標軸が2本）および</span><strong style="font-family: var(--editor-font-family); font-size: inherit;">3次元図</strong><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">（表示する座標軸が3本）が作成できます。</span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">4成分系以上でも、任意の座標軸に関して切断・投影することにより2、3次元表示を行うことができます。</span></p>
+</li>
+<li>
+<p><strong>種々の作図設定</strong> … 活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、<strong>エリンガム図</strong>、<strong>電位-pH図</strong>が作成できます。また、各化学種の<strong>活量・温度などの値を変更</strong>し、即座に図に反映できます。</p>
+</li>
+<li>
+<p><strong>画像ファイルの出力（BMP、JPG、EMF形式）</strong> … ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。</p>
+</li>
+<li><strong>平衡点座標・活量の出力</strong> … 平衡計算の道具として使用できます。</li>
 </ul>
-<h3 id="mcetoc_1gadqd9ul1e">種々の作図設定</h3>
-<ul style="list-style-type: circle;">
-<li>活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、<strong>エリンガム図</strong>、<strong>電位-pH図</strong>が作成できます。</li>
-<li>各化学種の<strong>活量・温度などの値を変更</strong>し、即座に図に反映できます。</li>
-<li>その他、図の回転、配色、フォントなどの作図条件の指定が可能です。</li>
-</ul>
-<h3 id="mcetoc_1gadqd9ul1f">画像ファイルの出力（BMP、JPG、EMF形式）</h3>
-<ul style="list-style-type: circle;">
-<li>ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。</li>
-</ul>
-<h3 id="mcetoc_1gadqd9ul1g"><span style="font-family: var(--editor-font-family); font-size: inherit;">平衡点座標・活量の出力</span></h3>
-<ul style="list-style-type: circle;">
-<li>平衡計算の道具として使用できます。</li>
+<h3 id="mcetoc_1gaj2m06h64">Chestaでできないこと</h3>
+<ul>
+<li><strong>熱力学データベースは付属しません</strong> … ユーザーが熱力学データ集からデータを収集、データファイルに入力する必要があります。</li>
+<li><strong>物質の組成幅は考慮できません</strong> … 組成幅を持つ溶体を扱った数値計算はできません。</li>
 </ul>
 <h2 id="mcetoc_1gadqd9ul1h">動作環境</h2>
 <p>Microsoft Windows 7 以降 (64ビット)</p>
@@ -338,7 +327,7 @@
 <p class="auto-style1">データファイル作成用のExcelマクロが同梱されています。</p>
 <h3 id="mcetoc_1gadqd9ul1k">Chesta 2.22 (旧バージョン)</h3>
 <p><a href="https://www.aqua.mtl.kyoto-u.ac.jp/wordpress/chesta/downloads/Chesta2.22.zip">Chesta 2.22.zip</a> (2008年6月15日作成、2010年6月21日公開)</p>
-<h3 id="mcetoc_1gadqd9ul1l">機能比較</h3>
+<h3 id="mcetoc_1gadqd9ul1l">新旧バージョンの機能比較</h3>
 <table class="auto-style2" cellpadding="5" align="center">
 <tbody>
 <tr>
