@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-08-16T21:51:36+09:00</updated>
+    <updated>2022-08-17T01:19:41+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://n-hatada.github.io/chesta/english.html"/>
         <id>https://n-hatada.github.io/chesta/english.html</id>
 
-        <updated>2022-08-16T21:51:36+09:00</updated>
+        <updated>2022-08-17T01:19:41+09:00</updated>
             <summary>
                 <![CDATA[
                     Features of Chesta What Chesta can do Create chemical potential diagrams for multi-component systems: 2D (with 2 axes) and 3D&hellip;
@@ -32,7 +32,7 @@
 <li><a href="#mcetoc_1gadqh5o54t">Features of Chesta</a>
 <ul>
 <li><a href="#mcetoc_1gajbav55a2">What Chesta can do</a></li>
-<li><a href="#mcetoc_1gajbav55a3">Features not included</a></li>
+<li><a href="#mcetoc_1gajbav55a3">Features not implemented</a></li>
 </ul>
 </li>
 <li><a href="#mcetoc_1gadqh5o552">System requirements</a></li>
@@ -64,7 +64,7 @@
 <li><strong>Output images (in BMP, JPG, and EMF formats)</strong>: Vector images (EMF) can be edited in other softwares without degradation.</li>
 <li><strong>Output coordinates of equilibrium points and activities of chemical species</strong>: Chesta can be utilized as a tool for equilibrium calculations.</li>
 </ul>
-<h3 id="mcetoc_1gajbav55a3">Features not included</h3>
+<h3 id="mcetoc_1gajbav55a3">Features not implemented</h3>
 <ul>
 <li><strong>Thermodynamic database is not included</strong>: You have to collect data from the literature and input them to data files.</li>
 <li><strong>Compositional ranges of substances cannot be considered</strong>: All compounds are treated as line compounds. </li>
