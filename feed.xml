@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-08-22T15:13:35+09:00</updated>
+    <updated>2022-09-14T17:40:22+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -60,7 +60,7 @@
         <link href="https://n-hatada.github.io/chesta/english.html"/>
         <id>https://n-hatada.github.io/chesta/english.html</id>
 
-        <updated>2022-08-22T15:13:35+09:00</updated>
+        <updated>2022-09-14T17:40:22+09:00</updated>
             <summary>
                 <![CDATA[
                     Features of Chesta What Chesta can do Create chemical potential diagrams for multi-component systems: 2D (with 2 axes) and 3D&hellip;
@@ -81,7 +81,7 @@
 <li><a href="#mcetoc_1gadqh5o552">System requirements</a></li>
 <li><a href="#mcetoc_1gadqh5o553">Downloads</a>
 <ul>
-<li><a href="#mcetoc_1gadqh5o554">Chesta 3.4.2 (Latest version)</a></li>
+<li><a href="#mcetoc_1gadqh5o554">Chesta 3.4.3 (Latest version)</a></li>
 <li><a href="#mcetoc_1gadqh5o555">Chesta 2.22 (Discontinued)</a></li>
 <li><a href="#mcetoc_1gadqh5o556">Feature comparison</a></li>
 </ul>
@@ -116,7 +116,7 @@
 <p>Microsoft Windows 7 or later (64 bit)</p>
 <h2 id="mcetoc_1gadqh5o553">Downloads</h2>
 <h3 id="mcetoc_1gadqh5o554">Chesta 3.4.2 (Latest version)</h3>
-<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.2.0.zip" download>Chesta 3.4.2.0.zip</a> (Released on Aug 22, 2022.)</p>
+<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.2.1.zip" download>Chesta 3.4.2.1.zip</a> (Released on Sep. 14, 2022.)</p>
 <p class="auto-style1">An Excel macro for creating data files is included.</p>
 <h3 id="mcetoc_1gadqh5o555">Chesta 2.22 (Discontinued)</h3>
 <p><a href="https://n-hatada.github.io/chesta/Chesta2.22.zip" download>Chesta 2.22.zip</a> (Built on Jun. 15, 2008. Released on June 21, 2010.)</p>
@@ -289,6 +289,7 @@
 <li>August 9, 2022: Website moved; Chesta 3.4.1.15 released. The activities of all chemical species at equilibrium points can now be displayed.</li>
 <li>August 18, 2022: Chesta 3.4.1.16 released.</li>
 <li>August 22, 2022: Chesta 3.4.2.0 released. A bug (error occurs when 0 K data are entered) has been fixed.</li>
+<li>September 14, 2022: Chesta 3.4.2.1 released. Data files that contain whitespace characters before or after strings or numbers can now be correctly interpreted, ignoring the whitespace characters.</li>
 </ul>
 <p> </p>
             ]]>
@@ -302,10 +303,10 @@
         <link href="https://n-hatada.github.io/chesta/japanese.html"/>
         <id>https://n-hatada.github.io/chesta/japanese.html</id>
 
-        <updated>2022-08-22T15:12:31+09:00</updated>
+        <updated>2022-09-14T17:28:20+09:00</updated>
             <summary>
                 <![CDATA[
-                    化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 多元系化学ポテンシャル図の作成 … 2次元図（表示する座標軸が2本）および3次元図（表示する座標軸が3本）が作成できます。4成分系以上でも、任意の座標軸に関して切断・投影することにより2、3次元表示を行うことができます。 種々の作図設定 … 活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、エリンガム図、電位-pH図が作成できます。また、各化学種の活量・温度などの値を変更し、即座に図に反映できます。 画像ファイルの出力（BMP、JPG、EMF形式） … ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.2.0.zip (2022年8月22日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta&hellip;
+                    化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 多元系化学ポテンシャル図の作成 … 2次元図（表示する座標軸が2本）および3次元図（表示する座標軸が3本）が作成できます。4成分系以上でも、任意の座標軸に関して切断・投影することにより2、3次元表示を行うことができます。 種々の作図設定 … 活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、エリンガム図、電位-pH図が作成できます。また、各化学種の活量・温度などの値を変更し、即座に図に反映できます。 画像ファイルの出力（BMP、JPG、EMF形式） … ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.2.1.zip (2022年9月14日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -368,7 +369,7 @@
 <p>Microsoft Windows 7 以降 (64ビット)</p>
 <h2 id="mcetoc_1gadqd9ul1i">ダウンロード</h2>
 <h3 id="mcetoc_1gadqd9ul1j">Chesta 3.4.2 (最新バージョン)</h3>
-<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.2.0.zip" download>Chesta 3.4.2.0.zip</a> (2022年8月22日公開)</p>
+<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.2.1.zip" download>Chesta 3.4.2.1.zip</a> (2022年9月14日公開)</p>
 <p class="auto-style1">データファイル作成用のExcelマクロが同梱されています。</p>
 <h3 id="mcetoc_1gadqd9ul1k">Chesta 2.22 (旧バージョン)</h3>
 <p><a href="https://www.aqua.mtl.kyoto-u.ac.jp/wordpress/chesta/downloads/Chesta2.22.zip">Chesta 2.22.zip</a> (2008年6月15日作成、2010年6月21日公開)</p>
@@ -547,6 +548,7 @@
 <li>2022年8月9日 ホームページを移転しました。Chesta 3.4.1.15を公開しました。平衡点における全化学種の活量が表示できるようになりました。</li>
 <li>2022年8月18日 Chesta 3.4.1.16を公開しました。</li>
 <li>2022年8月22日 Chesta 3.4.2.0を公開しました。不具合 (0 Kのデータを入力するとエラーが発生する) を修正しました。</li>
+<li>2022年9月14日 Chesta 3.4.2.1を公開しました。データファイル中の文字列や数値の前後に空白文字がある場合も、それを無視することで正常にデータファイルを解釈できるようになりました。</li>
 </ul>
             ]]>
         </content>
