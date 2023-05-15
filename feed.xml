@@ -1,57 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2022-12-09T18:03:12+09:00</updated>
+    <updated>2023-05-15T13:05:46+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
     <id>https://n-hatada.github.io/chesta</id>
 
-    <entry>
-        <title>Tutorial 1: Install and create a diagram using a sample data file</title>
-        <author>
-            <name>Naoyuki Hatada</name>
-        </author>
-        <link href="https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file.html"/>
-        <id>https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file.html</id>
-
-        <updated>2022-08-18T22:51:08+09:00</updated>
-            <summary>
-                <![CDATA[
-                    This tutorial is for Chesta version 3.4.1. Download Chesta and unzip the downloaded compressed file to an appropriate folder. The&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>This tutorial is for Chesta version 3.4.1.</p>
-<h2>Install</h2>
-<p>Download <a href="https://n-hatada.github.io/chesta/english.html">Chesta</a> and unzip the downloaded compressed file to an appropriate folder. The compressed file contains the following files.</p>
-<ul>
-<li>"Chesta3.exe" (Executable program)</li>
-<li>"Data File Creation Wizard 3.xls" (Excel file for data file creation)</li>
-<li>"Software License Agreement.pdf"</li>
-<li>"Sample data" folder (Contains sample data files)</li>
-<li>"locale" folder (Contains ranslation files)</li>
-</ul>
-<h2>Create a chemical potential diagram using a sample data file</h2>
-<p>1. Run "Chesta3.exe."</p>
-<p>2. Open a data file "Cl2-Fe-O2-S2 system (1200K).csv" in the "Sample data" folder. The contents of the file are displayed in the Chesta window.</p>
-<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/3/JustOpenedDataFile-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/3/responsive/JustOpenedDataFile-2-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/JustOpenedDataFile-2-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/JustOpenedDataFile-2-md.png 768w"  alt="" width="675" height="564"></figure>
-<p>3. Click "Next," and a setup screen appears. You can modify axis assignment and chemical species taken into consideration. For the time being, you may leave them as they are.</p>
-<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/3/SettingScreen.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/3/responsive/SettingScreen-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/SettingScreen-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/SettingScreen-md.png 768w"  alt="" width="675" height="564"></figure>
-<p>4. Click "Next," and a new diagram window appears. By dragging the diagram, it can be rotated and viewed from any angle. Various operations can also be performed from another window that is already displayed.</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
-<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/DiagramWindow.png" data-size="794x610"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/DiagramWindow-thumbnail.png" alt="" width="720" height="553"></a></figure>
-<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow1.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow1-thumbnail.png" alt="" width="675" height="564"></a></figure>
-<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow2-2.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow2-2-thumbnail.png" alt="" width="675" height="564"></a></figure>
-<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow3-2.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow3-2-thumbnail.png" alt="" width="675" height="564"></a></figure>
-<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow4.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow4-thumbnail.png" alt="" width="675" height="564"></a></figure>
-</div></div>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Chesta - Software for Creating Chemical Potential Diagrams</title>
         <author>
@@ -60,7 +17,7 @@
         <link href="https://n-hatada.github.io/chesta/english.html"/>
         <id>https://n-hatada.github.io/chesta/english.html</id>
 
-        <updated>2022-09-14T17:40:22+09:00</updated>
+        <updated>2023-05-15T13:05:46+09:00</updated>
             <summary>
                 <![CDATA[
                     Features of Chesta What Chesta can do Create chemical potential diagrams for multi-component systems: 2D (with 2 axes) and 3D&hellip;
@@ -68,7 +25,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/1/ChestaScreenshot.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/1/responsive/ChestaScreenshot-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/1/responsive/ChestaScreenshot-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/1/responsive/ChestaScreenshot-md.png 768w"  alt="" width="2071" height="1060"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/1/ChestaScreenshot.png" alt="" width="2071" height="1060" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/1/responsive/ChestaScreenshot-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/1/responsive/ChestaScreenshot-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/1/responsive/ChestaScreenshot-md.png 768w"></figure>
 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
@@ -115,8 +72,8 @@
 <h2 id="mcetoc_1gadqh5o552">System requirements</h2>
 <p>Microsoft Windows 7 or later (64 bit)</p>
 <h2 id="mcetoc_1gadqh5o553">Downloads</h2>
-<h3 id="mcetoc_1gadqh5o554">Chesta 3.4.2 (Latest version)</h3>
-<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.2.1.zip" download>Chesta 3.4.2.1.zip</a> (Released on Sep. 14, 2022.)</p>
+<h3 id="mcetoc_1gadqh5o554">Chesta 3.4.3 (Latest version)</h3>
+<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.3.0.zip" download>Chesta 3.4.3.0.zip</a> (Released on May 15, 2023.)</p>
 <p class="auto-style1">An Excel macro for creating data files is included.</p>
 <h3 id="mcetoc_1gadqh5o555">Chesta 2.22 (Discontinued)</h3>
 <p><a href="https://n-hatada.github.io/chesta/Chesta2.22.zip" download>Chesta 2.22.zip</a> (Built on Jun. 15, 2008. Released on June 21, 2010.)</p>
@@ -126,7 +83,7 @@
 <tr>
 <td class="ms-classic1-tl"> </td>
 <td class="ms-classic1-top">Chesta 2.22</td>
-<td class="ms-classic1-top">Chesta 3.4.2</td>
+<td class="ms-classic1-top">Chesta 3.4.3</td>
 </tr>
 <tr>
 <td class="ms-classic1-left">Languages</td>
@@ -290,6 +247,7 @@
 <li>August 18, 2022: Chesta 3.4.1.16 released.</li>
 <li>August 22, 2022: Chesta 3.4.2.0 released. A bug (error occurs when 0 K data are entered) has been fixed.</li>
 <li>September 14, 2022: Chesta 3.4.2.1 released. Data files that contain whitespace characters before or after strings or numbers can now be correctly interpreted, ignoring the whitespace characters.</li>
+<li>May 15, 2023: Chesta 3.4.3.0 released. A bug related to the drawing of frames of stability areas has been fixed.</li>
 </ul>
 <p> </p>
             ]]>
@@ -303,15 +261,15 @@
         <link href="https://n-hatada.github.io/chesta/japanese.html"/>
         <id>https://n-hatada.github.io/chesta/japanese.html</id>
 
-        <updated>2022-12-09T18:03:12+09:00</updated>
+        <updated>2023-05-15T13:05:30+09:00</updated>
             <summary>
                 <![CDATA[
-                    化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 多元系化学ポテンシャル図の作成 … 2次元図（表示する座標軸が2本）および3次元図（表示する座標軸が3本）が作成できます。4成分系以上でも、任意の座標軸に関して切断・投影することにより2、3次元表示を行うことができます。 種々の作図設定 … 活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、エリンガム図、電位-pH図が作成できます。また、各化学種の活量・温度などの値を変更し、即座に図に反映できます。 画像ファイルの出力（BMP、JPG、EMF形式） … ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.2.1.zip (2022年9月14日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta&hellip;
+                    化学ポテンシャル図とは 化学ポテンシャル図とは、系の構成成分の化学ポテンシャル (分圧、活量) や温度を座標軸にとって種々の化学種の安定領域を示したものです。対象とする系の相平衡関係や起こりうる反応などを鳥瞰的に把握できる利点があり、エリンガム図や電位-pH図などの形で広く利用されています。 多元系化学ポテンシャル図の作成 … 2次元図（表示する座標軸が2本）および3次元図（表示する座標軸が3本）が作成できます。4成分系以上でも、任意の座標軸に関して切断・投影することにより2、3次元表示を行うことができます。 種々の作図設定 … 活量、エネルギー、電位、温度などの種類の座標軸を使用することにより、エリンガム図、電位-pH図が作成できます。また、各化学種の活量・温度などの値を変更し、即座に図に反映できます。 画像ファイルの出力（BMP、JPG、EMF形式） … ベクター形式（EMF形式）で出力すると、画像品質を落とさずに他のソフトで編集できます。 Microsoft Windows 7 以降 (64ビット) Chesta 3.4.3.0.zip (2023年5月15日公開) データファイル作成用のExcelマクロが同梱されています。 Chesta&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/2/ChestaScreenshot_jp.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/2/responsive/ChestaScreenshot_jp-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/2/responsive/ChestaScreenshot_jp-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/2/responsive/ChestaScreenshot_jp-md.png 768w"  alt="" width="2071" height="1060"></figure>
+                <figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/2/ChestaScreenshot_jp.png" alt="" width="2071" height="1060" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/2/responsive/ChestaScreenshot_jp-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/2/responsive/ChestaScreenshot_jp-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/2/responsive/ChestaScreenshot_jp-md.png 768w"></figure>
 <div class="post__toc">
 <h3>目次</h3>
 <ul>
@@ -325,7 +283,7 @@
 <li><a href="#mcetoc_1gadqd9ul1h">動作環境</a></li>
 <li><a href="#mcetoc_1gadqd9ul1i">ダウンロード</a>
 <ul>
-<li><a href="#mcetoc_1gadqd9ul1j">Chesta 3.4.2 (最新バージョン)</a></li>
+<li><a href="#mcetoc_1gadqd9ul1j">Chesta 3.4.3 (最新バージョン)</a></li>
 <li><a href="#mcetoc_1gadqd9ul1k">Chesta 2.22 (旧バージョン)</a></li>
 <li><a href="#mcetoc_1gadqd9ul1l">新旧バージョンの機能比較</a></li>
 </ul>
@@ -368,8 +326,8 @@
 <h2 id="mcetoc_1gadqd9ul1h">動作環境</h2>
 <p>Microsoft Windows 7 以降 (64ビット)</p>
 <h2 id="mcetoc_1gadqd9ul1i">ダウンロード</h2>
-<h3 id="mcetoc_1gadqd9ul1j">Chesta 3.4.2 (最新バージョン)</h3>
-<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.2.1.zip" download>Chesta 3.4.2.1.zip</a> (2022年9月14日公開)</p>
+<h3 id="mcetoc_1gadqd9ul1j">Chesta 3.4.3 (最新バージョン)</h3>
+<p class="auto-style1"><a href="https://n-hatada.github.io/chesta/Chesta 3.4.3.0.zip" download>Chesta 3.4.3.0.zip</a> (2023年5月15日公開)</p>
 <p class="auto-style1">データファイル作成用のExcelマクロが同梱されています。</p>
 <h3 id="mcetoc_1gadqd9ul1k">Chesta 2.22 (旧バージョン)</h3>
 <p><a href="https://n-hatada.github.io/chesta/Chesta2.22.zip">Chesta 2.22.zip</a> (2008年6月15日作成、2010年6月21日公開)</p>
@@ -379,7 +337,7 @@
 <tr>
 <td class="ms-classic1-tl"> </td>
 <td class="ms-classic1-top">Chesta 2.22</td>
-<td class="ms-classic1-top">Chesta 3.4.2</td>
+<td class="ms-classic1-top">Chesta 3.4.3</td>
 </tr>
 <tr>
 <td class="ms-classic1-left">表示言語</td>
@@ -549,7 +507,51 @@
 <li>2022年8月18日 Chesta 3.4.1.16を公開しました。</li>
 <li>2022年8月22日 Chesta 3.4.2.0を公開しました。不具合 (0 Kのデータを入力するとエラーが発生する) を修正しました。</li>
 <li>2022年9月14日 Chesta 3.4.2.1を公開しました。データファイル中の文字列や数値の前後に空白文字がある場合も、それを無視することで正常にデータファイルを解釈できるようになりました。</li>
+<li>2023年5月15日 Chesta 3.4.3.0を公開しました。安定領域の輪郭線表示に関する不具合を修正しました。</li>
 </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tutorial 1: Install and create a diagram using a sample data file</title>
+        <author>
+            <name>Naoyuki Hatada</name>
+        </author>
+        <link href="https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file.html"/>
+        <id>https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file.html</id>
+
+        <updated>2022-08-18T22:51:08+09:00</updated>
+            <summary>
+                <![CDATA[
+                    This tutorial is for Chesta version 3.4.1. Download Chesta and unzip the downloaded compressed file to an appropriate folder. The&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This tutorial is for Chesta version 3.4.1.</p>
+<h2>Install</h2>
+<p>Download <a href="https://n-hatada.github.io/chesta/english.html">Chesta</a> and unzip the downloaded compressed file to an appropriate folder. The compressed file contains the following files.</p>
+<ul>
+<li>"Chesta3.exe" (Executable program)</li>
+<li>"Data File Creation Wizard 3.xls" (Excel file for data file creation)</li>
+<li>"Software License Agreement.pdf"</li>
+<li>"Sample data" folder (Contains sample data files)</li>
+<li>"locale" folder (Contains ranslation files)</li>
+</ul>
+<h2>Create a chemical potential diagram using a sample data file</h2>
+<p>1. Run "Chesta3.exe."</p>
+<p>2. Open a data file "Cl2-Fe-O2-S2 system (1200K).csv" in the "Sample data" folder. The contents of the file are displayed in the Chesta window.</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/3/JustOpenedDataFile-2.png" alt="" width="675" height="564" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/3/responsive/JustOpenedDataFile-2-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/JustOpenedDataFile-2-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/JustOpenedDataFile-2-md.png 768w"></figure>
+<p>3. Click "Next," and a setup screen appears. You can modify axis assignment and chemical species taken into consideration. For the time being, you may leave them as they are.</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/3/SettingScreen.png" alt="" width="675" height="564" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/3/responsive/SettingScreen-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/SettingScreen-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/3/responsive/SettingScreen-md.png 768w"></figure>
+<p>4. Click "Next," and a new diagram window appears. By dragging the diagram, it can be rotated and viewed from any angle. Various operations can also be performed from another window that is already displayed.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/DiagramWindow.png" data-size="794x610"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/DiagramWindow-thumbnail.png" alt="" width="720" height="553"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow1.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow1-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow2-2.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow2-2-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow3-2.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow3-2-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow4.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/3/gallery/OperationWindow4-thumbnail.png" alt="" width="675" height="564"></a></figure>
+</div></div>
             ]]>
         </content>
     </entry>
