@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2023-06-09T16:29:18+09:00</updated>
+    <updated>2023-06-09T18:43:45+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -511,6 +511,52 @@
 <li>2023年5月15日 Chesta 3.4.3.0を公開しました。安定領域の輪郭線表示に関する不具合を修正しました。</li>
 <li>2023年6月9日 Chesta 3.4.3.2を公開しました。翻訳に関する不具合を修正しました。</li>
 </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>使用説明 1: Chestaのインストールとサンプルデータファイルを使用した化学ポテンシャル図の作成</title>
+        <author>
+            <name>Naoyuki Hatada</name>
+        </author>
+        <link href="https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file-2.html"/>
+        <id>https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file-2.html</id>
+
+        <updated>2023-06-09T18:43:45+09:00</updated>
+            <summary>
+                <![CDATA[
+                    この解説ではChestaバージョン3.4.3を使用しています。 Chestaをダウンロードし、ダウンロードされた圧縮ファイルを適当なフォルダに展開します。圧縮ファイルには下記のファイルが含まれています。 "Chesta3.exe"を起動し、画面上部のメニューで”Tools"&gt;"Language"&gt;"日本語"を選択すると、日本語表示ができます。 1. "Chesta3.exe"を起動します。 2. "開く"ボタンを押し、"Sample data"フォルダーにあるデータファイル"Cl2-Fe-O2-S2 system (1200K).csv"を開きます。データファイルの内容が画面に表示されます。 3. "次へ"をクリックすると描画設定画面になります。座標軸の割り当てや考慮する化学種を変更できます。今回は、そのままにしておきます。 4. "次へ"をクリックすると、新たに化学ポテンシャル図のウィンドウが現れます。図をドラッグすると回転して任意の角度から図を見ることができます。元から表示されていたウィンドウからも種々の操作が行なえます。
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>この解説ではChestaバージョン3.4.3を使用しています。</p>
+<h2>Chestaのインストール</h2>
+<p><a href="https://n-hatada.github.io/chesta/english.html">Chesta</a>をダウンロードし、ダウンロードされた圧縮ファイルを適当なフォルダに展開します。圧縮ファイルには下記のファイルが含まれています。</p>
+<ul>
+<li>"Chesta3.exe" (実行プログラム)</li>
+<li>"Data File Creation Wizard 3.xls" (データファイル作成用Excelマクロ)</li>
+<li>"Software License Agreement.pdf"</li>
+<li>"Sample data" フォルダー (サンプルデータファイルが含まれます)</li>
+<li>"locale" フォルダー (翻訳ファイルが含まれます)</li>
+</ul>
+<p>"Chesta3.exe"を起動し、画面上部のメニューで”Tools"&gt;"Language"&gt;"日本語"を選択すると、日本語表示ができます。</p>
+<h2>サンプルデータファイルを使用した化学ポテンシャル図の作成</h2>
+<p>1. "Chesta3.exe"を起動します。</p>
+<p>2. "開く"ボタンを押し、"Sample data"フォルダーにあるデータファイル"Cl2-Fe-O2-S2 system (1200K).csv"を開きます。データファイルの内容が画面に表示されます。</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/4/sample_file_is_opened.png" alt="" width="675" height="564" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/4/responsive/sample_file_is_opened-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/4/responsive/sample_file_is_opened-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/4/responsive/sample_file_is_opened-md.png 768w"></figure>
+<p>3. "次へ"をクリックすると描画設定画面になります。座標軸の割り当てや考慮する化学種を変更できます。今回は、そのままにしておきます。</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/4/setting.png" alt="" width="675" height="564" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/4/responsive/setting-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/4/responsive/setting-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/4/responsive/setting-md.png 768w"></figure>
+<p>4. "次へ"をクリックすると、新たに化学ポテンシャル図のウィンドウが現れます。図をドラッグすると回転して任意の角度から図を見ることができます。元から表示されていたウィンドウからも種々の操作が行なえます。</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/diagram.png" data-size="794x610"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/diagram-thumbnail.png" alt="" width="720" height="553"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab1.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab1-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab2.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab2-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab3.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab3-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab4.png" data-size="675x564"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/tab4-thumbnail.png" alt="" width="675" height="564"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/point_list.png" data-size="794x498"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/point_list-thumbnail.png" alt="" width="720" height="452"></a></figure>
+<figure class="gallery__item"><a href="https://n-hatada.github.io/chesta/media/posts/4/gallery/conditions.png" data-size="794x498"><img loading="lazy" src="https://n-hatada.github.io/chesta/media/posts/4/gallery/conditions-thumbnail.png" alt="" width="720" height="452"></a></figure>
+</div></div>
             ]]>
         </content>
     </entry>
