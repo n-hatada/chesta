@@ -3,7 +3,7 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2024-07-02T17:12:33+09:00</updated>
+    <updated>2024-07-02T17:17:35+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
@@ -29,9 +29,9 @@
 <h3>Table of Contents</h3>
 <ul>
 <li><a href="#mcetoc_1i1fqm9ieh">Introduction</a></li>
-<li><a href="#mcetoc_1i1cfogjsdf">Collecting thermodynamic data</a></li>
-<li><a href="#mcetoc_1i1cfogjsdg">Creating Data Files</a></li>
-<li><a href="#mcetoc_1i1cfogjsdh">Creating chemical potential diagrams using Chesta</a></li>
+<li><a href="#mcetoc_1i1cfogjsdf">Collect thermodynamic data</a></li>
+<li><a href="#mcetoc_1i1cfogjsdg">Create a data file</a></li>
+<li><a href="#mcetoc_1i1cfogjsdh">Create chemical potential diagrams using Chesta</a></li>
 </ul>
 </div>
 <p class="msg msg--info">This tutorial is for Chesta version 3.4.3.</p>
