@@ -3,12 +3,160 @@
     <title>Chesta</title>
     <link href="https://n-hatada.github.io/chesta/feed.xml" rel="self" />
     <link href="https://n-hatada.github.io/chesta" />
-    <updated>2024-06-29T02:53:01+09:00</updated>
+    <updated>2024-07-02T17:12:33+09:00</updated>
     <author>
         <name>Naoyuki Hatada</name>
     </author>
     <id>https://n-hatada.github.io/chesta</id>
 
+    <entry>
+        <title>Tutorial 2: Creating a chemical potential diagram for any system (fixed temperature)</title>
+        <author>
+            <name>Naoyuki Hatada</name>
+        </author>
+        <link href="https://n-hatada.github.io/chesta/tutorial-2-creating-a-chemical-potential-diagram-for-any-system-fixed-temperature.html"/>
+        <id>https://n-hatada.github.io/chesta/tutorial-2-creating-a-chemical-potential-diagram-for-any-system-fixed-temperature.html</id>
+
+        <updated>2024-06-29T02:43:24+09:00</updated>
+            <summary>
+                <![CDATA[
+                    This tutorial is for Chesta version 3.4.3. In this article, I will explain the process of creating a chemical potential&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1i1fqm9ieh">Introduction</a></li>
+<li><a href="#mcetoc_1i1cfogjsdf">Collecting thermodynamic data</a></li>
+<li><a href="#mcetoc_1i1cfogjsdg">Creating Data Files</a></li>
+<li><a href="#mcetoc_1i1cfogjsdh">Creating chemical potential diagrams using Chesta</a></li>
+</ul>
+</div>
+<p class="msg msg--info">This tutorial is for Chesta version 3.4.3.</p>
+<h2 id="mcetoc_1i1fqm9ieh">Introduction</h2>
+<p>In this article, I will explain the process of creating a chemical potential diagram for the Fe-Si-O system at 1100 K as an example.</p>
+<h2 id="mcetoc_1i1cfogjsdf">Collect thermodynamic data</h2>
+<p>First, collect thermodynamic data (standard Gibbs energy of formation) for substances in the Fe-Si-O system from thermodynamic data collections and literature. Table 1 shows the data I collected.</p>
+<p>Table 1 Standard Gibbs energies of formation of substances in the Fe-Si-O system (1100 K)</p>
+<table border="1">
+<thead>
+<tr>
+<td>Substance</td>
+<td>Δ<sub>f</sub>G° (kJ mol<sup>-1</sup>)</td>
+<td>source</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="72">Fe (s)</td>
+<td width="72">0</td>
+<td width="72"> </td>
+</tr>
+<tr>
+<td>Si (s)</td>
+<td>0</td>
+<td> </td>
+</tr>
+<tr>
+<td>O<sub>2</sub> (g)</td>
+<td>0</td>
+<td> </td>
+</tr>
+<tr>
+<td>Fe<sub>0.947</sub>O (s)</td>
+<td>-192.927</td>
+<td>[1]</td>
+</tr>
+<tr>
+<td>Fe<sub>2</sub>O<sub>3</sub> (s)</td>
+<td>-537.171</td>
+<td>[1] </td>
+</tr>
+<tr>
+<td>Fe<sub>3</sub>O<sub>4</sub> (s)</td>
+<td>-762.463</td>
+<td>[1]</td>
+</tr>
+<tr>
+<td>SiO<sub>2</sub> (s, quartz)</td>
+<td>-712.805</td>
+<td>[1]</td>
+</tr>
+<tr>
+<td>Fe<sub>2</sub>SiO<sub>4</sub> (s)</td>
+<td>-1115.31</td>
+<td>[2]</td>
+</tr>
+<tr>
+<td>FeSiO<sub>3</sub> (s)</td>
+<td>-913.464</td>
+<td>[2]</td>
+</tr>
+<tr>
+<td>Fe<sub>5</sub>Si<sub>3</sub> (s)</td>
+<td>-204.794</td>
+<td>Calculated from [2][3]</td>
+</tr>
+<tr>
+<td>FeSi (s)</td>
+<td>-68.11</td>
+<td>Calculated from [2][3]</td>
+</tr>
+<tr>
+<td>FeSi<sub>2</sub> (s)</td>
+<td>-94.839</td>
+<td>Calculated from [2][3]</td>
+</tr>
+</tbody>
+</table>
+<p>[1] M.W. Chase Jr., NIST-JANAF Thermochemical Tables, fourth ed., J. Phys. Chem. Ref. Data, Monograph No. 9, 1998.<br>[2] I. Barin, Thermochemical Data of Pure Substances, VCH Verlagsgesellschaft mbH (1993).<br>[3] S. Cui, I.-H. Jung, CALPHAD: Comput. Coupling Phase Diagrams Thermochem., 50 (2017) 108–125.</p>
+<h2 id="mcetoc_1i1cfogjsdg">Create a data file</h2>
+<p>Use the collected thermodynamic data to create a data file for Chesta. Chesta data files are in CSV format and can be edited in Microsoft Excel or a text editor. We will use Excel.</p>
+<p>1. Decide the coordinate axes to be used in the chemical potential diagram. In this example, the independent components of the Fe-Si-O system are considered to be Fe, Si, and O<sub>2</sub>, as shown in Table 2, and the coordinate axes are log <i>a</i><sub>Fe</sub> , log <i>a</i><sub>Si</sub> , and log(<i>p</i><sub>O2</sub> /bar), which represent their chemical potentials. <i>a</i><sub>Fe</sub> and <i>a</i><sub>Si</sub> are the activities of Fe and Si, respectively, and <i>p</i><sub>O2 </sub>is the partial pressure of O2. The standard state of each independent component is the state of pure Fe (s), Si (s), and O<sub>2</sub> (g) at a pressure of 1 bar.</p>
+<p>Table 2 Coordinate axes used</p>
+<table border="1">
+<thead>
+<tr>
+<td>Independent components of the system (standard substances)</td>
+<td>Coordinate Axes</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fe</td>
+<td>log <i>a</i><sub>Fe</sub></td>
+</tr>
+<tr>
+<td>S</td>
+<td>log <i>a</i><sub>Si</sub></td>
+</tr>
+<tr>
+<td>O<sub>2</sub><sub>​</sub></td>
+<td>log(<i>p</i><sub>O2</sub> /bar)</td>
+</tr>
+</tbody>
+</table>
+<p>2. Open the "Data File Creation Wizard 3.xls" included with Chesta in Excel and enable macros.</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/6/fig1.png" alt="" width="1048" height="487" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/6/responsive/fig1-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig1-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig1-md.png 768w"></figure>
+<p>3. Select your language.</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/6/fig2.png" alt="" width="251" height="145" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/6/responsive/fig2-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig2-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig2-md.png 768w"></figure>
+<p>4. Click the "Create a new data file" button, select "Normal chemical potential diagram (log activity axis)" in the window that appears, and click "Next." This selection will be reflected in the initial contents of the next detailed setting screen.</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/6/fig3.png" alt="" width="451" height="257" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/6/responsive/fig3-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig3-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig3-md.png 768w"></figure>
+<p>5. Enter the coordinate axis settings determined in step 1, and click "OK."</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/6/fig4.png" alt="" width="611" height="585" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/6/responsive/fig4-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig4-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig4-md.png 768w"></figure>
+<p>6. A new Excel sheet will open. Add information about each substance to the end of the sheet, one row per substance. (In the figure below, the blue text is the information added.) For example, row 54 in the figure below is information about Fe<sub>2</sub>SiO<sub>4.</sub> First, starting from the leftmost cell, enter "Phase" in column A and the substance name in column B. In columns C to E, enter the coefficients in the reaction equation in which 1 mol of each substance is produced from the independent components Fe, Si, and O<sub>2</sub> of the system. The reaction equation for the production of Fe<sub>2</sub>SiO<sub>4 </sub>(s) is <br>2 Fe + Si + 2 O<sub>2</sub> = Fe<sub>2</sub>SiO<sub>4</sub>,<br>so columns C to E in row 54 are 2, 1, and 2, respectively. Then, in column F, enter the standard Gibbs energy change of the production reaction in kJ/mol, and in column G, enter the activity shift (usually 0).</p>
+<figure class="post__image"><img loading="lazy"  src="https://n-hatada.github.io/chesta/media/posts/6/fig5.png" alt="" width="600" height="658" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/6/responsive/fig5-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig5-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/6/responsive/fig5-md.png 768w"></figure>
+<p>7. Save the Excel worksheet in CSV format and close Excel. When saving, a confirmation screen will appear saying "If you save as CSV (comma separated values), some of the workbook's features may be lost." but just save it.</p>
+<p><a href="https://n-hatada.github.io/chesta/Fe-Si-O2 (1100K)_en.csv">Created data file</a></p>
+<h2 id="mcetoc_1i1cfogjsdh">Create chemical potential diagrams using Chesta</h2>
+<p><a href="https://n-hatada.github.io/chesta/tutorial-1-install-and-create-a-diagram-using-a-sample-data-file.html">Following the same procedure as in the previous article</a> , open the data file in Chesta and create a chemical potential diagram for the Fe-Si-O system.</p>
+<figure class="post__image"><figure class="is-loaded"><img  src="https://n-hatada.github.io/chesta/media/posts/5/Fe-Si-O2-system-1100K.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n--hatada-github-io.translate.goog/chesta/media/posts/5/responsive/Fe-Si-O2-system-1100K-xs.png?_x_tr_sl=auto&amp;_x_tr_tl=ja&amp;_x_tr_hl=ja&amp;_x_tr_pto=wapp 300w,https://n--hatada-github-io.translate.goog/chesta/media/posts/5/responsive/Fe-Si-O2-system-1100K-sm.png?_x_tr_sl=auto&amp;_x_tr_tl=ja&amp;_x_tr_hl=ja&amp;_x_tr_pto=wapp 480w,https://n--hatada-github-io.translate.goog/chesta/media/posts/5/responsive/Fe-Si-O2-system-1100K-md.png?_x_tr_sl=auto&amp;_x_tr_tl=ja&amp;_x_tr_hl=ja&amp;_x_tr_pto=wapp 768w" alt="" width="870" height="895" loading="lazy" sizes="(max-width: 48em) 100vw, 768px" srcset="https://n-hatada.github.io/chesta/media/posts/5/responsive/Fe-Si-O2-system-1100K-xs.png 300w ,https://n-hatada.github.io/chesta/media/posts/5/responsive/Fe-Si-O2-system-1100K-sm.png 480w ,https://n-hatada.github.io/chesta/media/posts/5/responsive/Fe-Si-O2-system-1100K-md.png 768w"></figure></figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>使用説明 2: 任意の系の化学ポテンシャル図(温度固定)の作成</title>
         <author>

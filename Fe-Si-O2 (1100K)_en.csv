@@ -1,0 +1,58 @@
+﻿Time,2024/7/2 15:45,,,,,
+*******************************************************************,,,,,,
+*Add phase data at the bottom of this sheet.,,,,,,
+"*When you finish editing, save the sheet as a CSV file.",,,,,,
+*(Lines starting with an asterisk are regarded as comments.),,,,,,
+*******************************************************************,,,,,,
+,,,,,,
+*------------------------------------------------------,,,,,,
+*The data file format version and drawing conditions are written below.,,,,,,
+*You can also change these settings when you create diagrams with Chesta.,,,,,,
+*------------------------------------------------------,,,,,,
+,,,,,,
+*The data file format version is written here. You don't need to change it from '3'.,,,,,,
+Version,3,,,,,
+*Specify the dimension of this data file.,,,,,,
+Dimension,3,,,,,
+*Specify the diagram title.,,,,,,
+DiagramName,Fe-Si-O2 system (1100K),,,,,
+*Specify temperature at which thermodynamic data are given.,,,,,,
+T,1100,,,,,
+*Specify axis labels in sequence.,,,,,,
+AxisLabel,log aFe,log aSi,log pO2,,,
+*Specify axis types in sequence. log activity -> 'loga'  -log activity -> 'pL'  Energy[kJ] -> 'kJ'  Energy[eV] -> 'eV'  Potential[V] -> 'E',,,,,,
+AxisType,loga,loga,loga,,,
+*Specify phase names corresponding to each axis.,,,,,,
+CompositionLabel,Fe (s),Si (s),O2 (g),,,
+*Specify lower limits of each axis in sequence.,,,,,,
+LowerLimit,-16,-40,-40,,,
+*Specify upper limits of each axis in sequence.,,,,,,
+UpperLimit,0,0,0,,,
+*Specify whether the data file supports the temperature change feature or not.,,,,,,
+*'0' -> No   '1' -> Yes (Entropies are given.)   '2' -> Yes(Enthalpies are given.),,,,,,
+Tvariable,0,,,,,
+,,,,,,
+*------------------------------------------------------,,,,,,
+*Thermodynamic data of the phases in the system are written below.,,,,,,
+*------------------------------------------------------,,,,,,
+*Data of each phase are written in a line.,,,,,,
+*Think of the reaction formula for the formation of each phase (from the phases of the axes).,,,,,,
+*Example: 2 Fe (s) + 3 Si (s) -> Phase X,,,,,,
+*Prepare standard Gibbs free energy change (kJ/mol) for the reaction.,,,,,,
+"*Then write the phase name, coefficients on the left-hand side of the reaction formula, standard Gibbs free energy change (kJ/mol), and log activity shift d(log a) (normally 0) in sequence.",,,,,,
+"*Example: Phase, Phase X, 2, 3, 0, -30, 0",,,,,,
+,,,,,,
+*,Phase name,Fe (s),Si (s),O2 (g),dGf*,d(log a)
+Phase,Fe (s),1,0,0,0,0
+Phase,Si (s),0,1,0,0,0
+Phase,O2 (g),0,0,1,0,0
+*Add phases which belong to the system below.,,,,,,
+Phase,Fe0.947O (s),0.947,0,0.5,-192.927,0
+Phase,Fe2O3 (s),2,0,1.5,-537.171,0
+Phase,Fe3O4 (s),3,0,2,-762.463,0
+Phase,SiO2 (s),0,1,1,-712.805,0
+Phase,Fe2SiO4 (s),2,1,2,-1115.306,0
+Phase,FeSiO3 (s),1,1,1.5,-913.464,0
+Phase,Fe5Si3 (s),5,3,0,-204.794,0
+Phase,FeSi (s),1,1,0,-68.11,0
+Phase,FeSi2 (s),1,2,0,-94.839,0
